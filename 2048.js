@@ -1,3 +1,4 @@
+var _a;
 var board;
 var rows = 4;
 var columns = 4;
@@ -159,3 +160,6 @@ function slideDown() {
     }
 }
 setBoard();
+(_a = document.getElementById("refreshBtn")) === null || _a === void 0 ? void 0 : _a.addEventListener("click", function (e) {
+    location.reload();
+});

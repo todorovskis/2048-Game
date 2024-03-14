@@ -174,3 +174,7 @@ function slideDown() {
 }
 
 setBoard();
+
+document.getElementById("refreshBtn")?.addEventListener("click", e => {
+    location.reload();
+})
