@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #bbada0;
+}
+
+hr {
+    width: 500px;
+}
+
+#board {
+    width: 380px;
+    height: 380px;
+
+    background-color: #cdc1b5;
+    border: 6px solid #bbada0;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.tile {
+    width: 80px;
+    height: 80px;
+    border: 3px solid rgb(158, 47, 47);
+
+    font-size: 42px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* colored tiles */
+
+.score2 {
+    background-color: #eee4da;
+    color: #727371;
+}
+
+.score4 {
+    background-color: #ece0ca;
+    color: #727371;
+}
+
+.score8 {
+    background-color: #f4b17a;
+    color: white;
+}
+
+.score16{
+    background-color: #f59575;
+    color: white;
+}
+
+.score32{
+    background-color: #f57c5f;
+    color: white;
+}
+
+.score64{
+    background-color: #f65d3b;
+    color: white;
+}
+
+.score128{
+    background-color: #edce71;
+    color: white;
+}
+
+.score256{
+    background-color: #edcc63;
+    color: white;
+}
+
+.score512{
+    background-color: #edc651;
+    color: white;
+}
+
+.score1024{
+    background-color: #eec744;
+    color: white;
+}
+
+.score2048{
+    background-color: #ecc230;
+    color: white;
+}
+
+.score4096 {
+    background-color: #fe3d3d;
+    color: white;
+}
+
+.score8192 {
+    background-color: #ff2020;
+    color: white;
+}

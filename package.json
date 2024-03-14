@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  },
+  "scripts": {
+    "dev": "tsc --watch & lite-server"
+  }
+}
